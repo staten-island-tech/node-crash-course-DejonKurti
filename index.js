@@ -48,3 +48,21 @@ person1.greeting();  //Run it in console now and boom, you get the function's st
 _____________________________________________ 
 //CORE MODULES
    //(check path_demo.js)
+
+
+//LOGGER DEMO
+
+/* const Logger = require('./logger');
+
+const logger = new Logger();
+
+logger.on('message', (data) => console.log('Called Listener', data));
+
+logger.log('Hello World!'); */
+
+
+// SERVER 
+
+const http = require('http');
+const path = require('path');
+const fs = require('fs');
